@@ -11,14 +11,14 @@ Healthcare systems are collecting increasingly large quantities of digital infor
 
 ## Details Regarding Datasets Used in this Tutorial
 
-Real clinical text datasets will be used to demonstrate computational tools and statistical models. In particular, we will make use of 1) the general purpose MIMIC-III dataset, and 2) the i2b2 2014 clinical text deidentification track dataset.
+Real clinical text datasets will be used to demonstrate computational tools and statistical models illustrated in this tutorial. In particular, we will make use of 1) the general purpose MIMIC-III dataset, and 2) the i2b2 2014 clinical text deidentification track dataset.
 
 MIMIC-III documentation, and details regarding data access are provided at the following URL [https://physionet.org/content/mimiciii/1.4/]. 
-An accompanying scientific manuscript describing the open access clinical data resource is provided at the following URL [https://dspace.mit.edu/bitstream/handle/1721.1/109192/MIMIC-III.pdf?sequence=1]. 
+    - An accompanying scientific manuscript describing the open access clinical data resource is provided at the following URL [https://dspace.mit.edu/bitstream/handle/1721.1/109192/MIMIC-III.pdf?sequence=1]. 
 
 The i2b2 2014 clinical text deidenticiation track dataset is described at the following URL [https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/]. 
-An accompnaying scientific manuscript discussing study design and data annotation are provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub]. 
-An overview of top performing DEID models identification in the i2b2 2014 deidentification challenge are provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub].
+    - An accompnaying scientific manuscript discussing study design and data annotation are provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub]. 
+    - An overview of top performing DEID models identification in the i2b2 2014 deidentification challenge are provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub].
 
 ## Talk Overview and Additional Resources
 
@@ -36,24 +36,26 @@ The talk is composed of 6 Jupyter notebooks each illustrating the use of a compu
    - Chapman et al (2020) medspacy COVID-19 USVA. [https://aclanthology.org/2020.nlpcovid19-acl.10.pdf]
    - Meaney et al (2022) medspacy COVID-19 UTOPIAN. [https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000150]
 3. Document Classification: DTMs and Logistic Lasso
+   - Turney et al (2010) vector space models and frequency to meaning [https://arxiv.org/abs/1003.1141]
    - Sci-Kit Learn: count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
    - Sci-Kit Learn: logistic regression. [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
-4. Topic Extraction and Supervised Clustering: NMF Topic Models
+5. Topic Extraction and Supervised Clustering: NMF Topic Models
    - Sci-Kit Learn: count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
    - Sci-Kit Learn: Non-negative matrix factorization. [https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html]
    - Gensim: Topic coherence measures. [https://radimrehurek.com/gensim/models/coherencemodel.html]
    - Meaney et al (2022) topic modelling and COVID-19. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861144/]
-5. Word Clustering/Embedding and Estimation of Semantic Relatedness: word2vec
+6. Word Clustering/Embedding and Estimation of Semantic Relatedness: word2vec
    - Mikolov et al (2013) estimation word representations. [https://arxiv.org/abs/1301.3781]
    - Rong (2014) word2vec parameter estimation explained. [https://arxiv.org/abs/1411.2738]
    - Pennington et al (2014) GloVe. [https://nlp.stanford.edu/pubs/glove.pdf]
    - Goldberg et al (2015) neural language models. [https://arxiv.org/abs/1510.00726] 
    - Gensim: word2vec. [https://radimrehurek.com/gensim/models/word2vec.html]
-6. Clinical text deidentification and related NER problems: Roberta LLM
-   - attention is all you need. []
-   - bert
-   - roberta
+7. Clinical text deidentification and related NER problems: Roberta LLM
+   - Vaswani et al (2017) attention is all you need. [https://arxiv.org/abs/1706.03762]
+   - Devlin et al (2018) BERT. [https://arxiv.org/abs/1810.04805]
+   - Liu et al (2019) ROBERTA. [https://arxiv.org/abs/1907.11692]
    - HuggingFace. [https://huggingface.co/]
-   - Roberta-Large Large Language Model. [https://huggingface.co/roberta-large]
+   - Huggingface: ROBERTA-Large LLM. [https://huggingface.co/roberta-large]
+   - Meaney et al (2022) Comparison of LLMs for DEID. [https://arxiv.org/abs/2204.07056]
 
 
