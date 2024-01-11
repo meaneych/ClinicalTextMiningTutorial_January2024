@@ -1,4 +1,5 @@
-# Clinical Text Mining: A Showcase of Computational Tools and Statistical Models in R/Python
+# Clinical Text Mining 
+# A Showcase of Computational Tools and Statistical Models in R/Python
 
 ## Author: Christopher Meaney
 
