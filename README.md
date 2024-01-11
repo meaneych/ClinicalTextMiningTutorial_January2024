@@ -14,7 +14,7 @@ Healthcare systems are collecting increasingly large quantities of digital infor
 Real clinical text datasets will be used to demonstrate computational tools and statistical models illustrated in this tutorial. In particular, we will make use of 1) the general purpose MIMIC-III dataset, and 2) the i2b2 2014 clinical text deidentification track dataset.
 
 MIMIC-III documentation, and details regarding data access are provided at the following URL [https://physionet.org/content/mimiciii/1.4/]. 
-- Manuscript describing MIMIC-III dataset [https://dspace.mit.edu/bitstream/handle/1721.1/109192/MIMIC-III.pdf?sequence=1]. 
+- Manuscript describing the open-source MIMIC-III clinical EMR dataset [https://dspace.mit.edu/bitstream/handle/1721.1/109192/MIMIC-III.pdf?sequence=1]. 
 
 The i2b2 2014 deidenticiation track dataset is described at the following URL [https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/]. 
 - Manuscript discussing i2b2 2014 DEID study design and data annotation [https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub]. 
