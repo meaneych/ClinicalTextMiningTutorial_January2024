@@ -24,11 +24,10 @@ An overview of top performing DEID models identification in the i2b2 2014 deiden
 
 The talk is composed of 6 Jupyter notebooks each illustrating the use of a computational tool or statistical model in clinical text mining research. Additional details regarding the clinical NLP problem, and/or the tool/model are provided below.
 
-1. Tokenizers
-   - Tokenization algorithms are computational tools which break/slice/parse a digital character sequence into words, numbers, punctuations, and other symbols.
+1. Tokenizers: break/slice/parse digital character sequences into words, numbers, punctuations, and other symbols.
    - Webster et al (1992) provide a seminal introduction on tokenization. [https://aclanthology.org/C92-4173.pdf]
-   - Diaz et al (2015) dicuss challenges of using standard tokenizers on clinical/biomedical text data. [https://aclanthology.org/W15-2605.pdf]
-   - Meaney et al (2023) update the work of Diaz-Lopez to investigate modern tokenizers from R/Python. [https://arxiv.org/abs/2305.08787]
+   - Diaz et al (2015) dicuss tokenization of clinical/biomedical text data. [https://aclanthology.org/W15-2605.pdf]
+   - Meaney et al (2023) update Diaz et al using modern R/Python tokenizers. [https://arxiv.org/abs/2305.08787]
 2. Tokenization, Feature Generation, and Contextual Modification (medspacy)
    - Spacy: industrial strength NLP. [https://spacy.io/]
    - Medspacy: clinical NLP with spacy. [https://github.com/medspacy/medspacy]
@@ -37,16 +36,23 @@ The talk is composed of 6 Jupyter notebooks each illustrating the use of a compu
    - Chapman et al (2020) medspacy COVID-19 USVA. [https://aclanthology.org/2020.nlpcovid19-acl.10.pdf]
    - Meaney et al (2022) medspacy COVID-19 UTOPIAN. [https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000150]
 3. Document Classification: DTMs and Logistic Lasso
-   - Sci-Kit Learn count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
-   - Sci-Kit Learn logistic regression. [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
-   - Topic coherence measures. [https://radimrehurek.com/gensim/models/coherencemodel.html]
+   - Sci-Kit Learn: count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
+   - Sci-Kit Learn: logistic regression. [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
 4. Topic Extraction and Supervised Clustering: NMF Topic Models
-   - Sci-Kit Learn count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
-   - Non-negative matrix factorization. [https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html]
+   - Sci-Kit Learn: count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
+   - Sci-Kit Learn: Non-negative matrix factorization. [https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html]
+   - Gensim: Topic coherence measures. [https://radimrehurek.com/gensim/models/coherencemodel.html]
    - Meaney et al (2022) topic modelling and COVID-19. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861144/]
 5. Word Clustering/Embedding and Estimation of Semantic Relatedness: word2vec
-   - Gensim word2vec. [https://radimrehurek.com/gensim/models/word2vec.html]
+   - Mikolov et al (2013) estimation word representations. [https://arxiv.org/abs/1301.3781]
+   - Rong (2014) word2vec parameter estimation explained. [https://arxiv.org/abs/1411.2738]
+   - Pennington et al (2014) GloVe. [https://nlp.stanford.edu/pubs/glove.pdf]
+   - Goldberg et al (2015) neural language models. [https://arxiv.org/abs/1510.00726] 
+   - Gensim: word2vec. [https://radimrehurek.com/gensim/models/word2vec.html]
 6. Clinical text deidentification and related NER problems: Roberta LLM
+   - attention is all you need. []
+   - bert
+   - roberta
    - HuggingFace. [https://huggingface.co/]
    - Roberta-Large Large Language Model. [https://huggingface.co/roberta-large]
 
