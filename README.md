@@ -13,19 +13,41 @@ Healthcare systems are collecting increasingly large quantities of digital infor
 
 Real clinical text datasets will be used to demonstrate computational tools and statistical models. In particular, we will make use of 1) the general purpose MIMIC-III dataset, and 2) the i2b2 2014 clinical text deidentification track dataset.
 
-MIMIC-III documentation, and details regarding data access are provided at the following URL [https://physionet.org/content/mimiciii/1.4/]. An accompanying scientific manuscript describing the open access clinical data resource is provided at the following URL [https://dspace.mit.edu/bitstream/handle/1721.1/109192/MIMIC-III.pdf?sequence=1]. 
+MIMIC-III documentation, and details regarding data access are provided at the following URL [https://physionet.org/content/mimiciii/1.4/]. 
+An accompanying scientific manuscript describing the open access clinical data resource is provided at the following URL [https://dspace.mit.edu/bitstream/handle/1721.1/109192/MIMIC-III.pdf?sequence=1]. 
 
-The i2b2 2014 clinical text deidenticiation track dataset is described at the following URL [https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/]. An accompnaying scientific manuscript discussing study design and data annotation re provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub]. An overview of top performing DEID models is provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub].
+The i2b2 2014 clinical text deidenticiation track dataset is described at the following URL [https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/]. 
+An accompnaying scientific manuscript discussing study design and data annotation are provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub]. 
+An overview of top performing DEID models identification in the i2b2 2014 deidentification challenge are provided at the following URL [https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub].
 
 ## Talk Overview and Additional Resources
 
 The talk is composed of 6 Jupyter notebooks each illustrating the use of a computational tool or statistical model in clinical text mining research. Additional details regarding the clinical NLP problem, and/or the tool/model are provided below.
 
 1. Tokenizers
+   - Tokenization algorithms are computational tools which break/slice/parse a digital character sequence into words, numbers, punctuations, and other symbols.
+   - Webster et al (1992) provide a seminal introduction on tokenization. [https://aclanthology.org/C92-4173.pdf]
+   - Diaz et al (2015) dicuss challenges of using standard tokenizers on clinical/biomedical text data. [https://aclanthology.org/W15-2605.pdf]
+   - Meaney et al (2023) update the work of Diaz-Lopez to investigate modern tokenizers from R/Python. [https://arxiv.org/abs/2305.08787]
 2. Tokenization, Feature Generation, and Contextual Modification (medspacy)
+   - Spacy: industrial strength NLP. [https://spacy.io/]
+   - Medspacy: clinical NLP with spacy. [https://github.com/medspacy/medspacy]
+   - Medspacy: clinical NLP with spacy. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861690/pdf/3576697.pdf]
+   - Chapman et al (2023) medspacy housing example. [https://www.medrxiv.org/content/10.1101/2023.03.17.23287414v1.full.pdf]
+   - Chapman et al (2020) medspacy COVID-19 USVA. [https://aclanthology.org/2020.nlpcovid19-acl.10.pdf]
+   - Meaney et al (2022) medspacy COVID-19 UTOPIAN. [https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000150]
 3. Document Classification: DTMs and Logistic Lasso
+   - Sci-Kit Learn count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
+   - Sci-Kit Learn logistic regression. [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
+   - Topic coherence measures. [https://radimrehurek.com/gensim/models/coherencemodel.html]
 4. Topic Extraction and Supervised Clustering: NMF Topic Models
+   - Sci-Kit Learn count vectorizer. [https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html]
+   - Non-negative matrix factorization. [https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html]
+   - Meaney et al (2022) topic modelling and COVID-19. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861144/]
 5. Word Clustering/Embedding and Estimation of Semantic Relatedness: word2vec
-6. Clinical text deidentification and related NER problems: Roberta LLM 
+   - Gensim word2vec. [https://radimrehurek.com/gensim/models/word2vec.html]
+6. Clinical text deidentification and related NER problems: Roberta LLM
+   - HuggingFace. [https://huggingface.co/]
+   - Roberta-Large Large Language Model. [https://huggingface.co/roberta-large]
 
 
