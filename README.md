@@ -54,6 +54,7 @@ The talk is composed of 6 Jupyter notebooks each illustrating the use of a compu
    - Vaswani et al (2017) attention is all you need. [https://arxiv.org/abs/1706.03762]
    - Devlin et al (2018) BERT. [https://arxiv.org/abs/1810.04805]
    - Liu et al (2019) ROBERTA. [https://arxiv.org/abs/1907.11692]
+   - Alamar (2018) the illustrated transformer [https://jalammar.github.io/illustrated-transformer/]
    - HuggingFace. [https://huggingface.co/]
    - Huggingface: ROBERTA-Large LLM. [https://huggingface.co/roberta-large]
    - Meaney et al (2022) Comparison of LLMs for DEID. [https://arxiv.org/abs/2204.07056]
